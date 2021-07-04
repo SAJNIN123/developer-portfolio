@@ -13,6 +13,7 @@ h1{
 
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half_width{
@@ -40,4 +41,14 @@ section{
 .bennar_top{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.big_dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.big_dream p{
+    width: 70%;
 }
