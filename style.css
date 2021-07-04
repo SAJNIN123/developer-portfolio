@@ -1,0 +1,43 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.color_span{
+    color: orange;
+}
+
+section{
+    display: flex;
+}
+
+.half_width{
+    width: 50%;
+    padding-left: 18px;
+}
+
+.half_width img{
+    width: 80%;
+}
+
+.link_btn{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.bennar_top{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
